@@ -127,28 +127,28 @@ $( "#but17" ).hover(
 );
 $( "#but18" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic1" src="ilust1.jpg">')
+    $('.picture').prepend('<img class="pic1" src="ilust1.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic1" ).last().remove();
   }
 );
 $( "#but19" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic3" src="ilust3.jpg">')
+    $('.picture').prepend('<img class="pic3" src="ilust3.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic3" ).last().remove();
   }
 );
 $( "#but20" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic2" src="ilust6.jpg">')
+    $('.picture').prepend('<img class="pic2" src="ilust6.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic2" ).last().remove();
   }
 );
 $( "#but21" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic4" src="ilust5.jpg">')
+    $('.picture').prepend('<img class="pic4" src="ilust5.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic4" ).last().remove();
   }
@@ -162,7 +162,7 @@ $( "#but22" ).hover(
 );
 $( "#but23" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic2" src="ilust4.jpg">')
+    $('.picture').prepend('<img class="pic2" src="ilust4.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic2" ).last().remove();
   }
