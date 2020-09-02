@@ -272,8 +272,8 @@ button{
 	animation:pimple 1s;
 }
 .a iframe{
-  width:19vw;
-  height:19vw;
+  width:12vw;
+  height:12vw;
   min-width:150px;
   min-height:150px;
   pointer-events: none;
