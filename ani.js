@@ -1,19 +1,6 @@
 
 window.onload=function(){
 
-    //     var cursor=document.getElementById("cursor");
-    // document.addEventListener('mousemove',function(e){
-    //     var x=e.clientX;
-    //     var y= e.clientY;
-    //     cursor.style.left=x+"px";
-    //     cursor.style.top=y+"px";
-    // });
-
-    // $('body').mousemove(createShape);
-    
-    // const swup= new Swup();
-// var div = document.createElement('div');
-// div.className = "web1";
 $( "#but1" ).hover(
   function() {
     $('.picture').prepend('<img class="pic1" src="web1.jpg">')
