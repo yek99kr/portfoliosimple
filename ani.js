@@ -1,7 +1,15 @@
-const coin= new Audio("coin.wav");
-
 
 window.onload=function(){
+
+    //     var cursor=document.getElementById("cursor");
+    // document.addEventListener('mousemove',function(e){
+    //     var x=e.clientX;
+    //     var y= e.clientY;
+    //     cursor.style.left=x+"px";
+    //     cursor.style.top=y+"px";
+    // });
+
+    // $('body').mousemove(createShape);
     
     // const swup= new Swup();
 // var div = document.createElement('div');
@@ -48,6 +56,14 @@ $( "#but6" ).hover(
     $( '.picture' ).find( ".pic1" ).last().remove();
   }
 );
+$( "#but24" ).hover(
+  function() {
+    $('.picture').prepend('<img class="pic1" src="web0.jpg">')
+  }, function() {
+    $( '.picture' ).find( ".pic1" ).last().remove();
+  }
+);
+
 $( "#but7" ).hover(
   function() {
     $('.picture').prepend('<img class="pic2" src="f1.jpg">')
@@ -58,6 +74,14 @@ $( "#but7" ).hover(
 $( "#but8" ).hover(
   function() {
     $('.picture').prepend('<img class="pic3" src="calen.jpg">')
+  }, function() {
+    $( '.picture' ).find( ".pic3" ).last().remove();
+  }
+);
+
+$( "#but25" ).hover(
+  function() {
+    $('.picture').prepend('<img class="pic3" src="gd.jpg">')
   }, function() {
     $( '.picture' ).find( ".pic3" ).last().remove();
   }
@@ -127,28 +151,28 @@ $( "#but17" ).hover(
 );
 $( "#but18" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic1" src="ilust1.JPG">')
+    $('.picture').prepend('<img class="pic1" src="ilust1.jpg">')
   }, function() {
     $( '.picture' ).find( ".pic1" ).last().remove();
   }
 );
 $( "#but19" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic3" src="ilust3.JPG">')
+    $('.picture').prepend('<img class="pic3" src="ilust3.jpg">')
   }, function() {
     $( '.picture' ).find( ".pic3" ).last().remove();
   }
 );
 $( "#but20" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic2" src="ilust6.JPG">')
+    $('.picture').prepend('<img class="pic2" src="ilust6.jpg">')
   }, function() {
     $( '.picture' ).find( ".pic2" ).last().remove();
   }
 );
 $( "#but21" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic4" src="ilust5.JPG">')
+    $('.picture').prepend('<img class="pic4" src="ilust5.jpg">')
   }, function() {
     $( '.picture' ).find( ".pic4" ).last().remove();
   }
@@ -162,7 +186,22 @@ $( "#but22" ).hover(
 );
 $( "#but23" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic2" src="ilust4.JPG">')
+    $('.picture').prepend('<img class="pic2" src="ilust4.jpg">')
+  }, function() {
+    $( '.picture' ).find( ".pic2" ).last().remove();
+  }
+);
+
+$( "#but26" ).hover(
+  function() {
+    $('.picture').prepend('<img class="pic2" src="chain1.png">')
+  }, function() {
+    $( '.picture' ).find( ".pic2" ).last().remove();
+  }
+);
+$( "#but27" ).hover(
+  function() {
+    $('.picture').prepend('<img class="pic2" src="case.png">')
   }, function() {
     $( '.picture' ).find( ".pic2" ).last().remove();
   }
@@ -280,4 +319,6 @@ function closeNav() {
         })
 
    
+
+
 
