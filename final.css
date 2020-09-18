@@ -12,6 +12,20 @@ html{
 body{
 	margin:0;
 }
+.everything{
+	animation:opa 0.5s;
+}
+.load{
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	pointer-events: none;
+}
+
+.load iframe{
+	width: 10vw;
+}
 h1{
 	position: relative;
 	left:2%;
@@ -375,6 +389,11 @@ button{
   60%{color:fuchsia;}
   80% {color:black;}
   100% {color:red;}
+}
+@-webkit-keyframes opa{
+  0%   {opacity: 0;}
+
+  100% {opacity: 1;}
 }
 
 
