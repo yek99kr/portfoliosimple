@@ -12,6 +12,7 @@ $( "#but1" ).hover(
     $( '.picture' ).find( ".pic1" ).last().remove();
   }
 );
+	
 $( "#but2" ).hover(
   function() {
     $('.picture').prepend('<img class="pic3" src="web3.jpg">')
@@ -49,7 +50,7 @@ $( "#but6" ).hover(
 );
 $( "#but24" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic1" src="web0.jpg">')
+    $('.picture').prepend('<img class="pic1" src="web0.png">')
   }, function() {
     $( '.picture' ).find( ".pic1" ).last().remove();
   }
