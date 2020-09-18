@@ -1,5 +1,9 @@
 
 window.onload=function(){
+	
+	$(".load").fadeOut("fast");
+
+      $(".everything").css("display","block");
 
 $( "#but1" ).hover(
   function() {
