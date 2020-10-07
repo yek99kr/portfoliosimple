@@ -49,13 +49,14 @@ body{
 .everything{
 	transition:2s;
 }
-.load{
+.loadd{
 	position: fixed;
 	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);
 	pointer-events: none;
 /*	animation:load 2s infinite ;*/
+	width: 10vw;
 }
 .modal{
 	position:fixed;
@@ -70,9 +71,6 @@ body{
 	overflow-y: scroll;
 }
 
-.load iframe{
-	width: 10vw;
-}
 
 #ballbot{
 	position: fixed;
@@ -222,7 +220,7 @@ body{
 	right:1.5vw;
 	animation: loadd 2s infinite;
 }
-.eye {
+/* .eye {
 	position: fixed;
 	bottom:5%;
 	left:50%;
@@ -234,17 +232,17 @@ body{
 	min-width: 800px;
 	min-height: 780px;
 	overflow: hidden;
-}
+} */
 
 .ball {
 	position: absolute;
-  	width: 5vw;
-  	height: 5vw;
+  	width: 8vw;
+  	height: 8vw;
   	/*background: black;*/
   	border-radius:  50%;
   	z-index: 4;
-  	animation: color 3s infinite;
-  	filter: blur(1vw);
+  	animation: color 2s infinite;
+  	filter: blur(3vw);
 }
 
 #plasma{
