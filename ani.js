@@ -214,7 +214,7 @@ $( "#but18" ).hover(
 );
 $( "#but19" ).hover(
   function() {
-    $('.picture').prepend('<img class="pic3" src="ilust3.jpg">')
+    $('.picture').prepend('<img class="pic3" src="ilust3.JPG">')
   }, function() {
     $( '.picture' ).find( ".pic3" ).last().remove();
   }
