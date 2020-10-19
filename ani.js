@@ -47,10 +47,10 @@ window.onload=function(){
       $(".load").fadeOut("slow");
 	
 	
-      $("#what").click(
-        function(){
-          $( ".things" ).fadeToggle() 
-        })
+//       $("#what").click(
+//         function(){
+//           $( ".things" ).fadeToggle() 
+//         })
 
 
       $(".everything").css("display","block");
