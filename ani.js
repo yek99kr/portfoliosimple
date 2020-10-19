@@ -45,6 +45,12 @@ for(var i=0;i<2;i++){
 window.onload=function(){
 
       $(".load").fadeOut("slow");
+	
+	
+      $("#what").click(
+        function(){
+          $( ".things" ).fadeToggle() 
+        })
 
 
       $(".everything").css("display","block");
